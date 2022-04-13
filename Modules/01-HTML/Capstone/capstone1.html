@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+       font-family: sans-serif;
+    }
+    
+    body{
+        margin:1rem;
+    }
+    td > p , td> a{
+        padding-left:10px;
+    }
+    h1{ 
+        margin:0;
+    }
+    span{
+        padding-left:2px;
+        color:#4D4E50;
+    }
+    
+    h1, h2, h3, b{
+        color:#4165AD;
+    }
+    h2 {
+        margin-bottom:0;
+    }
+    h3{
+        margin-bottom:10px;
+    }
+    .name , .email, .submit{
+        padding-bottom:5px;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Henry Eng</h1>
+        <span>Road to Tech</span>
+        
+        <hr>
+        <br>
+
+        <!-- table -->
+        <table>
+            <tr>
+                <td class="intro-image">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Henry's image" height="200" />
+                </td>
+                <td class="intro-text">
+                    <p>
+                        Hi! My name is <b>Henry Eng</b>
+                    </p>
+                    <p>I am a generalist aiming to be an <b>Expert Generalist</b></p>
+                    <p>I love tech and tech startups</p>
+                    <p><a href="https://www.investopedia.com/terms/u/unicorn.asp" target="_blank"><b>Unicorns</b></a> in
+                        Asia spark up my interest into startups</p>
+                    <P>Formerly worked as an <b>Account Assistant</b> in a prominent developer company based in Penang.
+                    </P>
+                    <a href="#aboutme">Facebook</a>
+                    <a href="#aboutme">Linkedin</a>
+                </td>
+            </tr>
+
+        </table>
+
+        <!-- list -->
+        <h2>Some Facts About Me</h2>
+        <hr>
+        <ul>
+            <li>Photography is my main passion</li>
+            <li>I love to go on streets during weekends just to stroll around town capturing moments and savoring
+                various kind of street food.</li>
+            <li>I love to walk at recreational parks during early morning or evening just to feel refresh or to mobilize
+                my dopamine and serotonin levels during stress</li>
+            <li>An Introvert probably "a textrovert"</li>
+            <li>Loves to do nothing and listen to instrumental prayer music during rest time or free time</li>
+            <li>Loves to do or carry activities on my very own </li>
+        </ul>
+        <hr>
+        
+        <!-- forms -->
+        <div>
+            <h3>Let's Connect</h3>
+            <form>
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="name" id="name" required>
+                </div>
+
+                <div class="email">
+                    <label for="name">Email:</label>
+                    <input type="email" placeholder="your email address" id="email" required>
+                </div>
+
+                <br>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <hr>
+
+
+        <footer id="footer">
+            <p>henryeng28@gmail.com</p>
+            <p>contact me at +1 234 567 8910</p>
+            <p>&copy; Henry Eng 2022</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
