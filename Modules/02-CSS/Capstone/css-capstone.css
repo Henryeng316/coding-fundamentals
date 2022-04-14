@@ -1,0 +1,58 @@
+*{font-family: sans-serif;}
+
+        body{
+            background-color: lightyellow;
+        }
+        /* mobile view  */
+        @media(max-width:640px){
+            body{
+                background-color:#FE0000;
+            }
+            .mobile{
+                display:block;
+            }
+            .tablet{
+                display:none;
+            }
+            .desktop{
+                display:none;
+            }
+            
+        }
+
+
+        /* tablet view */
+        @media(min-width:641px){
+            body{
+                background-color:#90EE90;
+            }
+            .mobile{
+                display:none;
+            }
+            .tablet{
+                display:block;
+            }
+            .desktop{
+                display:none;
+            }
+            
+        }
+        
+        
+        /* desktop view  */
+        @media(min-width:1024px){
+            body{
+                background-color:#0031FF;
+                color:#ffff;
+            }
+            .mobile{
+                display:none;
+            }
+            .tablet{
+                display:none;
+            }
+            .desktop{
+                display:block;
+            }
+            
+        }
