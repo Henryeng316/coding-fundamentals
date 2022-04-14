@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+}
+h4{
+    padding-left:8px;
+    margin-bottom:0;
+}
+
+.breadcrumb {
+    width:50%;
+    padding: 8px 20px;
+    background-color: rgb(155, 235, 208);
+    list-style-type: none;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+
+}
+
+.breadcrumb li a {
+    color: green;
+}
+.breadcrumb li a:hover{
+    opacity:85%;
+}
