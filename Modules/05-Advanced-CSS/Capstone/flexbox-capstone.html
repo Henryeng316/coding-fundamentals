@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flexbox-capstone.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/956eb6453d.js" crossorigin="anonymous"></script>
+    <title>CSS Flexbox - Capstone project ( contact page)</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <img class="logo" src="https://seekvectorlogo.com/wp-content/uploads/2019/09/freshworks-vector-logo.png"
+            alt="" />
+
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+
+        
+        <a class="cta-btn" href="#">Get Started</a>
+        
+    </nav>
+
+    <!-- heading section/hero -->
+    <section class="heading">
+        <h2>We'd love to hear from you</h2>
+        <p>
+            Whether you have a question about features, trials need a demo,<br> or
+            anything else, our team is ready to answer all your questions
+        </p>
+        <div class="hero-btn">
+            <a class="hero-btn">Get In Touch</a>
+
+        </div>
+    </section>
+
+    <!-- contact card section (with contact form)-->
+    <section class="contact-card">
+        <!-- left -->
+        <div class="contact-card_left">
+            
+            <p><b>Contact infomation</b></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae
+                quidem id accusantium explicabo veniam ipsa magnam rem, voluptas
+                dolore.
+            </p>
+            <div class="left-card_icon">
+                <a href="#"><i class="fa-solid fa-phone"></i><span>  +1 (555) 123-4567</span></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i><span>  support@ymail.com</span></a>
+            </div>
+            <div class="left-card_icon2">
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-github"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!-- right -->
+        <div class="contact-card_right">
+            <p><strong>Send us a message</strong></p>
+
+            <form>
+                <div class="right_part1">
+                    <div class="part1_input">
+                        <label for="fname">First name:</label><br />
+                        <input type="text" id="fname" name="fname" placeholder=""required />
+                    </div>
+                    <div class="part1_input">
+                        <label for="lname">Last name:</label><br />
+                        <input type="text" id="lname" name="lname" placeholder=""required />
+                    </div>  
+                </div>
+
+
+                <div class="right_part2">
+                    <div class="part2_input">
+                        <label for="email">Email:</label><br />
+                        <input type="text" id="email" name="email" placeholder=""required />
+                    </div>
+                    <div class="part2_input">
+                        <label for="phone">Phone:</label><br />
+                        <input type="number" id="phone" name="phone" placeholder=""required />
+                    </div>
+                </div>
+                
+             
+                <div class="part3_input">
+                    <label for="subject">Subject:</label><br />
+                    <input type="text" id="subject" name="subject" placeholder="" />
+                </div>
+
+                <div class="part4_input">
+                    <label for="message">Message</label><br />
+                    <textarea id="message" name="message" placeholder="  Write something..."></textarea>
+                </div>
+
+                <div class="submit-btn">
+                    <input class="submit-btn_item"type="submit" value="Submit" />
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
