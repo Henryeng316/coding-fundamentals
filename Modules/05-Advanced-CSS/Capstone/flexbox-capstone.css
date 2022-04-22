@@ -147,21 +147,31 @@ nav ul li a:hover{
     display:flex;
     flex-direction: column;
 }
+/* -------------------- */
 .right_part1{
     display:flex;
+    max-width:850px;
 }
 
 
 .right_part2{
     display:flex;
+    max-width:850px;
 }
 
  p>strong, .part1_input, .part2_input, .part3_input, .part4_input, .submit-btn{
     padding:0.5rem 1rem;
     margin:0 ;
 }
+.part1_input{
+    flex-grow:1;   
+}
+.part2_input{
+    flex-grow:1;
+}
 input[type=text],input[type=number], textarea {
     width: 100%;
+    max-width:820px;
     padding:0.3rem 0.2rem;
     border: 1px solid #ccc;
     border-radius: 5px;
