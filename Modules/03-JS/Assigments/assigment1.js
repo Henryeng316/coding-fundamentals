@@ -10,6 +10,6 @@ function sum(numbersArray) {
        num += numbersArray[i];
     }
     return num
-  }
-  console.log(sum([1, 2, 3, 4]));
-  console.log(sum([-3, 5, 19, -6]));
+}
+console.log(sum([1, 2, 3, 4]));
+console.log(sum([-3, 5, 19, -6]));
